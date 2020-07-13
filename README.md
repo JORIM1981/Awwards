@@ -8,7 +8,7 @@
 ## Description
 The application allows a user to post a project he/she has created and get it reviewed by his/her peers. A project can be rated based on design, usability and content. These criterii can be reviewed on a scale of 1-10 and the average score is taken.
 
-You can view the site at:[Heroku]()
+You can view the site at:[Heroku](https://awwards-jorim.herokuapp.com/)
 
 
 ## User Stories
@@ -62,7 +62,13 @@ python manage.py makemigrations pictures
  ```bash 
  python manage.py test 
 ```
-Open the application on your browser `127.0.0.1:8000`.  
+Open the application on your browser `127.0.0.1:8000`. 
+
+### Api Endpoints
+ * https://awwards-jorim.herokuapp.com/api/users/
+ * https://awwards-jorim.herokuapp.com/api/profile/
+ * https://awwards-jorim.herokuapp.com/api/posts/
+
   
 
 
